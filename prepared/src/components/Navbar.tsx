@@ -8,6 +8,9 @@ const Navbar: React.FC = () => {
      return (
         <nav className="navbar">
             <Link to="/" className="navbar-brand">
+                HOME
+            </Link>
+            <Link to="storage" className="navbar-brand">
                 FOOD STORAGE
             </Link>
               <Link to="/expiring" className="navbar-brand">

@@ -3,11 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
   display: flex;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,13 +25,12 @@ a:hover {
 body {
   background: url("assets/disaster.png");
   background-size: cover;
-  opacity: 0.45;
-  margin: 0;
+  flood-opacity: 0.3;
   place-items: center;
   min-width: 320px;
   width: 100%;
   min-height: 100vh;
-  background-image: ;
+  margin:0;
 }
 
 section {
@@ -44,6 +41,7 @@ section {
   font-size: large;
 
 }
+
 
 section img {
   justify-content: flex-end;
@@ -61,7 +59,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   text-shadow: 3px 3px #131212;
-  opacity: 1.5;
+}
+
+.wrapper {
+
+  opacity: 0.3;
 }
 
 button {

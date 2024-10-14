@@ -7,6 +7,12 @@ export default function Header() {
          case "/":
              zone = "Prepared.";
             break;
+          case "/starage":
+             zone = "Supply.List.";
+            break;
+          case "/list":
+             zone = "Sypply.List.";
+            break;
           case "/expiring":
              zone = "Expiring.";
             break;

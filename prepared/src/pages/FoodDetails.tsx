@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const foodDetails = () => {
     const { id } = useParams<{ id: string }>(); // get food id
-    const [food, setood] = useState<food | null>(null);
+    const [food, setFood] = useState<food | null>(null);
     const Navigate = useNavigate();
 
     useEffect(() => {
@@ -52,12 +52,7 @@ const foodDetails = () => {
                 </aside>
 
                 <aside className="info-aside info-right">
-                    <div className="star">
-                        {/* <FavoriteButton
-                            drinkName={food.strDrink} // Skickar drinkens namn som prop
-                            drinkImgUrl={food.strDrinkThumb} // Skickar drinkens bild-URL som prop
-                        />
-                    </div> */}
+                    
                     <section className="ingredient-container">
                         <h1 className="ingredient-header">Ingredients</h1>
                         <ul className="scroll-ingr">
